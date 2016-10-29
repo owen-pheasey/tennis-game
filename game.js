@@ -18,7 +18,7 @@ const PADDLE_HEIGHT = 100;
 
   var player1 = prompt("what is your name?")
 	alert(player1+" "+"the game will now begin once you press ok");
-	game.input.pointer1.isDown;
+	
 function calculateMousePos(evt) {
 	var rect = canvas.getBoundingClientRect();
 	var root = document.documentElement;
