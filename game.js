@@ -157,7 +157,7 @@ function drawEverything() {
 	colorRect(0,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 
 	// this is right computer paddle
-	colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
+	//colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 
 	//next line draws the middle paddle
 	colorRect(0,paddle3Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
