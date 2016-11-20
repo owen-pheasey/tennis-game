@@ -13,6 +13,7 @@ var showingWinScreen = false;
 
 var paddle1Y = 250;
 var paddle2Y = 250;
+var paddle3Y = 250;
 
 const PADDLE_THICKNESS = 10;
 const PADDLE_HEIGHT = 100;
@@ -126,7 +127,7 @@ function moveEverything() {
 
 function drawNet() {
 	for(var i=0;i<canvas.height;i+=40) {
-		colorRect(canvas.width/3-1,i,2,20,'white');
+		colorRect(canvas.width/2-1,i,2,20,'white');
 	}
 }
 
@@ -158,9 +159,11 @@ function drawEverything() {
 	// this is right computer paddle
 	colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 
+	//next line draws the middle paddle
+	colorRect(canvas.width-PADDLE_THICKNESS,paddle3Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 	
 	// next line draws the ball
-	colorCircle(ballX, ballY, 10, 'green');
+	colorCircle(ballX, ballY, 10, 'white');
 
 	canvasContext.fillText(player1Score, 100, 100);
 	canvasContext.fillText(player2Score, canvas.width-100, 100);
