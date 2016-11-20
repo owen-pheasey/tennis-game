@@ -127,7 +127,7 @@ function moveEverything() {
 
 function drawNet() {
 	for(var i=0;i<canvas.height;i+=40) {
-		colorRect(canvas.width/2-1,i,2,20,'white');
+		colorRect(canvas.width/3-1,i,2,20,'white');//changed from 2 to a 3
 	}
 }
 
