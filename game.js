@@ -160,7 +160,7 @@ function drawEverything() {
 	colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 
 	//next line draws the middle paddle
-	colorRect(canvas.width-PADDLE_THICKNESS,paddle3Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
+	colorRect(0,paddle3Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 	
 	// next line draws the ball
 	colorCircle(ballX, ballY, 10, 'white');
